@@ -40,9 +40,9 @@ a{text-decoration:none;color:inherit}
 .section-title{margin:0;line-height:1.1;letter-spacing:-.03em;font-size:clamp(2rem,4vw,3rem)}
 .wide-title{max-width:900px;margin-bottom:28px}
 .section-text p,.single{color:var(--muted);margin:0 0 18px;font-size:1.03rem}
-.timeline{position:relative;display:grid;gap:24px;padding-left:26px}
+.timeline{position:relative;display:grid;gap:48px;padding-left:26px}
 .timeline:before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--accent), rgba(255,255,255,.08))}
-.timeline-card{position:relative;border-radius:28px;padding:48px 28px 24px}
+.timeline-card{position:relative;border-radius:28px;padding:28px 28px 24px}
 .timeline-dot{position:absolute;left:-29px;top:34px;width:16px;height:16px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#5eead4);box-shadow:0 0 0 5px rgba(105,219,255,.1)}
 .timeline-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:18px;flex-wrap:wrap}
 .meta-block{display:flex;flex-direction:column;align-items:flex-end;text-align:right;margin-left:auto;min-width:180px}
