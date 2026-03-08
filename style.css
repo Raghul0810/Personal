@@ -21,7 +21,7 @@ a{text-decoration:none;color:inherit}
 .btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;text-decoration:none;transition:all .25s ease}
 .btn.outline{border:1px solid #4fd1c5;color:#4fd1c5;background:transparent}
 .btn.outline:hover{background:#4fd1c5;color:#0b1f2a}
-.hero-actions,.contact-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.hero-actions,.contact-actions{display:flex;gap:14px;flex-wrap:nowrap;margin-top:28px}
 .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:14px 22px;border:1px solid transparent;font-weight:800;transition:.25s ease}
 .btn:hover{transform:translateY(-2px)}
 .btn-primary{background:linear-gradient(135deg,var(--accent),#5eead4);color:#072036;box-shadow:var(--shadow)}
